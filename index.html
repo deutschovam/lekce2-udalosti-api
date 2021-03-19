@@ -9,7 +9,22 @@
 </head>
 <body>
 
-	<h1>Změna tříd, události</h1>
+
+	<p onmouseover="lev()" onmouseout="zpet()">V elipse spí lev.</p>
+<button onclick="red()">Červené po kliknutí</button>
+<button onclick="big()">Větší po kliknutí</button>
+
+
+<audio id="js-audio" src="audio/dingdingdang.mp3" preload="auto"></audio>
+
+<button onclick="prehraj('#js-audio')">Přehraj písničku</button>
+<button onclick="zastav('#js-audio')">Stopni písničku</button>
+<button onclick="nula('#js-audio')">Mute</button>
+<button onclick="pul('#js-audio')">0.5</button>
+<button onclick="jedna('#js-audio')">1</button>
+<button onclick="zacatek('#js-audio')">Od začátku</button>
+
+<!--	<h1>Změna tříd, události</h1>
 
 	<div class="ctverecek zluty"></div>
 
@@ -18,8 +33,7 @@
 	<img class="obrazek" src="obrazky/kocka.jpg">
 
 	<button class="tlacitko">Čudlajs</button>
-
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
-
+-->
+	<script src="main.js"></script>
 </body>
 </html>
