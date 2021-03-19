@@ -45,5 +45,5 @@ function jedna(elementSelector) {
 }
 function zacatek(elementSelector) {
     let audioElement = document.querySelector(elementSelector);
-    audioElement.load();
+    audioElement.currentTime = 0;
 }
