@@ -17,7 +17,7 @@ function red() {
     document.querySelector("p").classList.toggle("red");
 }
 
-function zvetsit() {
+/*function zvetsit() {
     document.querySelector("p").style.fontSize = bigger;
 }
 
@@ -26,9 +26,7 @@ function bigger(x, base) {
     if (isNaN(parsed)) { return 16; }
     return parsed + 1 "px";
   }
-  
- 
-
+*/
 
 /** 
  * 
