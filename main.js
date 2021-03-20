@@ -17,6 +17,19 @@ function red() {
     document.querySelector("p").classList.toggle("red");
 }
 
+function zvetsit() {
+    document.querySelector("p").style.fontSize = bigger;
+}
+
+function bigger(x, base) {
+    const parsed = parseInt(x, base);
+    if (isNaN(parsed)) { return 16; }
+    return parsed + 1 "px";
+  }
+  
+ 
+
+
 /** 
  * 
  * @param {string} elementSelector
@@ -47,3 +60,5 @@ function zacatek(elementSelector) {
     let audioElement = document.querySelector(elementSelector);
     audioElement.currentTime = 0;
 }
+
+
